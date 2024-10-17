@@ -2,12 +2,6 @@
 
 Este projeto usa a API do ChatGPT para gerar conceitos inovadores de startups com base em descrições fornecidas pelos usuários.
 
-## Video de apresentação do projeto
-
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
-  <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" alt="Exemplo de Vídeo" width="200" height="100" />
-</a>
-
 ## Instalação
 
 1. Clone o repositório:
@@ -49,6 +43,12 @@ Este projeto usa a API do ChatGPT para gerar conceitos inovadores de startups co
 ### **Manual de uso**
 Acesse a página principal e insira um conceito ou área para a qual deseja gerar uma ideia de startup.
 Clique em "Gerar Ideia" e aguarde a sugestão.
+
+### Video de apresentação do projeto
+
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+  <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" alt="Exemplo de Vídeo" width="200" height="100" />
+</a>
 
 ### Desenvolvedores 
 #### Licença
