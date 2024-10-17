@@ -37,6 +37,8 @@ Este projeto usa a API do ChatGPT para gerar conceitos inovadores de startups co
 ### OBS.: **Requisitos e Considerações**
 - **Chave da API**: Certifique-se de manter a chave da OpenAI em local seguro (como um arquivo `.env`).
 - **Limites de uso**: A API da OpenAI tem limites de uso, por isso é importante monitorar o uso de tokens.
+#### Créditos do CSS criado pela [https://github.com/anapamponet]
+ 
 
 ### **Manual de uso**
 Acesse a página principal e insira um conceito ou área para a qual deseja gerar uma ideia de startup.
@@ -55,5 +57,5 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou env
       ```bash
       pip freeze > requirements.txt
 
-#### Créditos do CSS criado pela @anapamponet
+
 
