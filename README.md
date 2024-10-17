@@ -34,7 +34,6 @@ Este projeto usa a API do ChatGPT para gerar conceitos inovadores de startups co
    python app.py
 6. Acesse a aplicação em http://localhost:5001  
 
-
 ### OBS.: **Requisitos e Considerações**
 - **Chave da API**: Certifique-se de manter a chave da OpenAI em local seguro (como um arquivo `.env`).
 - **Limites de uso**: A API da OpenAI tem limites de uso, por isso é importante monitorar o uso de tokens.
