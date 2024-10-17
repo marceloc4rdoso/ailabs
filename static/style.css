@@ -1,0 +1,135 @@
+/* Estilo básico para o corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+/* Estilo para o cabeçalho */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF7043;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para a logomarca */
+.logo {
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+/* Estilo para o título no cabeçalho */
+header h1 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+}
+
+/* Estilo para o título */
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: #FF7043;
+    margin: 20px auto;
+    max-width: 90%;
+    font-size: 2.5rem;
+}
+
+/* Estilo para o formulário */
+form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+/* Estilo para o textarea */
+textarea {
+    width: 50%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    resize: none;
+    margin-bottom: 20px;
+}
+
+/* Estilo do botão */
+button {
+    background-color: #FF5722;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 30%;
+}
+
+button:hover {
+    background-color: #E64A19;
+}
+
+/* Estilo para o resultado */
+#resultado {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-style: italic;
+    color: #FF7043;
+}
+/* Estilo para o rodapé */
+footer {
+    width: 100%;
+    background-color: #E65100;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+}
+
+/* Tornar a página responsiva */
+@media (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+
+    #resultado {
+        width: 90%;
+    }
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='img/favicon.png') }}" type="image/x-icon">
+    <title>Gerador de Ideias para Startups - ResumoCast</title>
+</head>
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='img/logo.jfif') }}" alt="Logo Resumocast" class="logo">
+        <h1>Gerador de Ideias para Startups</h1>
+    </header>
+    <h3>Sou um assistente que ajuda a criar conceitos de startups.</h3>
+    <form id="formulario">
+        <textarea id="descricao" name="descricao" placeholder="Digite um conceito ou área..." required cols="7" rows="6"></textarea>
+        <button type="submit">Gerar Ideia</button>
+    </form>
+    <div id="resultado"></div>
+    <footer>
+        Desenvolvido por Marcelo Cardoso de Oliveira - 2024
+    </footer>
+
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+
+</body>
+</html>
