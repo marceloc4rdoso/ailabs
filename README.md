@@ -3,7 +3,9 @@
 Este projeto usa a API do ChatGPT para gerar conceitos inovadores de startups com base em descrições fornecidas pelos usuários.
 ### Video de apresentação do projeto
 
-[Assista o vídeo no YouTube]([https://www.youtube.com/watch?v=ID_DO_VIDEO](https://www.youtube.com/watch?v=3GFzRlXWTaw)
+<a href="https://www.youtube.com/watch?v=3GFzRlXWTaw" target="_blank">
+  <img src="https://img.youtube.com/vi/3GFzRlXWTaw/maxresdefault.jpg" alt="   Assista o vídeo no Youtube" width="200" height="100" />
+</a>
 
 ## Instalação
 
