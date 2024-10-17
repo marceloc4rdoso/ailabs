@@ -1,4 +1,4 @@
-# Gerador de Ideias de Startups
+# Gerador de Ideias para Startups
 
 Este projeto usa a API do ChatGPT para gerar conceitos inovadores de startups com base em descrições fornecidas pelos usuários.
 ### Video de apresentação do projeto
