@@ -53,5 +53,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou env
       ### Passo 5: Adicionar `requirements.txt`
       Gere o `requirements.txt` para que outros possam instalar as dependências com facilidade:
       ```bash
-      pip freeze > requirements.txt 
+      pip freeze > requirements.txt
+
+#### Créditos do CSS criado pela @anapamponet
 
